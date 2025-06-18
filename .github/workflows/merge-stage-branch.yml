@@ -1,11 +1,9 @@
 name: Unit, Integration and Acceptance Tests on Stage Branch PR
 
 on:
-  pull_request:
+  push:
     branches:
       - 'stage'
-    types:
-      - closed
 
 jobs:
   run-unit-tests:
