@@ -1,4 +1,4 @@
-name: Unit and Acceptance Tests on Dev Branch push
+name: Unit, Integration and Acceptance Tests on Dev Branch push
 
 on:
   push:
