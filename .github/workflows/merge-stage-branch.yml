@@ -1,9 +1,9 @@
 name: Unit, Integration and Acceptance Tests on Dev Branch push
 
 on:
-  push:
-    branches:
-      - 'stage'
+  pull_request:
+    types:
+      - closed
 
 jobs:
   run-unit-tests:
