@@ -3,7 +3,7 @@ name: Unit, Integration and Acceptance Tests on Stage Branch PR
 on:
   pull_request:
     branches:
-      - 'dev'
+      - 'stage'
     types:
       - closed
 
